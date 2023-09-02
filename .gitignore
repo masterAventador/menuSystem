@@ -1,6 +1,7 @@
 
-Binaries/*
-Intermediate/*
-Saved/*
+Binaries/
+Intermediate/
+Saved/
 Content/StarterContent
-.idea
+.idea/
+build/
