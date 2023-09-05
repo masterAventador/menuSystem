@@ -60,10 +60,12 @@ JoinSessionCompleteDelegate(FOnJoinSessionCompleteDelegate::CreateUObject(this,&
 	if (OnlineSubsystem)
 	{
 		OnlineSessionInterface = OnlineSubsystem->GetSessionInterface();
+		/*
 		if (GEngine)
 		{
 			GEngine->AddOnScreenDebugMessage(-1,15.f,FColor::Blue,FString::Printf(TEXT("Found subsystem %s"),*OnlineSubsystem->GetSubsystemName().ToString()));
 		}
+		*/
 	}
 	
 }
